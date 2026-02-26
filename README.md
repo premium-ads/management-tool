@@ -45,3 +45,12 @@ Then double-click the app to open it normally.
 3. Scroll down — you'll see a message about "Management Tool" being blocked
 4. Click **"Open Anyway"**
 5. Enter your password to confirm
+
+## Windows: Fix "Windows protected your PC" Warning
+
+Windows SmartScreen may block the app because it is not signed. To run it:
+
+1. Click **"More info"** on the SmartScreen popup
+2. Click **"Run anyway"**
+
+The app is safe — this warning appears for all unsigned applications.
