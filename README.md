@@ -21,19 +21,19 @@ Since the app is not signed with an Apple Developer certificate, macOS Gatekeepe
 After downloading and extracting the `.zip` file, open **Terminal** and run:
 
 ```bash
-xattr -cr "/path/to/Management Tool.app"
+/usr/bin/xattr -cr "/path/to/Management Tool.app"
 ```
 
 For example, if you extracted it to the Downloads folder:
 
 ```bash
-xattr -cr ~/Downloads/Management\ Tool.app
+/usr/bin/xattr -cr ~/Downloads/Management\ Tool.app
 ```
 
 Or if you moved it to Applications:
 
 ```bash
-xattr -cr /Applications/Management\ Tool.app
+/usr/bin/xattr -cr /Applications/Management\ Tool.app
 ```
 
 Then double-click the app to open it normally.
